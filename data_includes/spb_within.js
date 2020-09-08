@@ -218,19 +218,19 @@ var items = [
                      "Form", {html: 'What did Anthony brush?: <input type="text" name="answer" class="obligatory" spellcheck="value">', 
                               validators: { answer: (s) => validateInput(s) }, }, ],
 
-     [["spba-lo-instr",1],  
+     [["spba-lo-instr",2],  
                      "Message", { html: loadAudio(SOURCES.inst.low[0]), transfer: 5000 },
                      "Form", {html: 'What did Anthony brush?: <input type="text" name="answer" class="obligatory" spellcheck="value">', 
                               validators: { answer: (s) => validateInput(s) }, }, ],
                                                                                   
           
-     [["spba-ho-mod",1],  
+     [["spba-ho-mod",3],  
                      "Message", { html: loadAudio(SOURCES.mod.high[0]), transfer: 5000 },
                      "Form", {html: 'What did Alex find?: <input type="text" name="answer" class="obligatory" spellcheck="value">', 
                               validators: { answer: (s) => validateInput(s) }, }, ],
 
 
-     [["spba-lo-mod",1],  
+     [["spba-lo-mod",4],  
                      "Message", { html: loadAudio(SOURCES.mod.low[0]), transfer: 5000 },
                      "Form", {html: 'What did Alex find?: <input type="text" name="answer" class="obligatory" spellcheck="value">', 
                               validators: { answer: (s) => validateInput(s) }, }, ],
@@ -240,19 +240,19 @@ var items = [
     
 
 
-     [["spba-lo-mod",2],  
+     [["spba-lo-mod",5],  
                      "Message", { html: loadAudio(SOURCES.mod.low[1]), transfer: 5000 },
                      "Form", {html: 'What did Brian listen to?: <input type="text" name="answer" class="obligatory" spellcheck="value">', 
                               validators: { answer: (s) => validateInput(s) }, }, ],
-     [["spba-ho-instr",2],  
+     [["spba-ho-instr",6],  
                      "Message", { html: loadAudio(SOURCES.inst.high[1]), transfer: 5000 },
                      "Form", {html: 'What did Briana clean?: <input type="text" name="answer" class="obligatory" spellcheck="value">', 
                               validators: { answer: (s) => validateInput(s) }, }, ],
-     [["spba-lo-instr",2],  
+     [["spba-lo-instr",7],  
                      "Message", { html: loadAudio(SOURCES.inst.low[1]), transfer: 5000 },
                      "Form", {html: 'What did Briana clean?: <input type="text" name="answer" class="obligatory" spellcheck="value">', 
                               validators: { answer: (s) => validateInput(s) }, }, ],                                                                                 
-     [["spba-ho-mod",2],  
+     [["spba-ho-mod",8],  
                      "Message", { html: loadAudio(SOURCES.mod.high[1]), transfer: 5000 },
                      "Form", {html: 'What did Brian listen to?: <input type="text" name="answer" class="obligatory" spellcheck="value">', 
                               validators: { answer: (s) => validateInput(s) }, }, ],
@@ -265,21 +265,21 @@ var items = [
 
 
     
-     [["spba-ho-mod",3],  
+     [["spba-ho-mod",9],  
                      "Message", { html: loadAudio(SOURCES.mod.high[2]), transfer: 5000 },
                      "Form", {html: 'What did Cathy look at?: <input type="text" name="answer" class="obligatory" spellcheck="value">', 
                               validators: { answer: (s) => validateInput(s) }, }, ],
-     [["spba-lo-mod",3],  
+     [["spba-lo-mod",10],  
                      "Message", { html: loadAudio(SOURCES.mod.low[2]), transfer: 5000 },
                      "Form", {html: 'What did Cathy look at?: <input type="text" name="answer" class="obligatory" spellcheck="value">', 
                               validators: { answer: (s) => validateInput(s) }, }, ],
                                                                                   
-     [["spba-ho-instr",3],  
+     [["spba-ho-instr",11],  
                      "Message", { html: loadAudio(SOURCES.inst.high[2]), transfer: 5000 },
                      "Form", {html: 'What did Cameron cover?: <input type="text" name="answer" class="obligatory" spellcheck="value">', 
                               validators: { answer: (s) => validateInput(s) }, }, ],
                                                                                   
-     [["spba-lo-instr",3],  
+     [["spba-lo-instr",12],  
                      "Message", { html: loadAudio(SOURCES.inst.low[2]), transfer: 5000 },
                      "Form", {html: 'What did Cameron cover?: <input type="text" name="answer" class="obligatory" spellcheck="value">', 
                               validators: { answer: (s) => validateInput(s) }, }, ],
@@ -288,47 +288,47 @@ var items = [
       
 // TARGET 4:
     
-     [["spba-lo-instr",4],  
+     [["spba-lo-instr",13],  
                      "Message", { html: loadAudio(SOURCES.inst.low[3]), transfer: 5000 },
                      "Form", {html: 'What did Diane feed?: <input type="text" name="answer" class="obligatory" spellcheck="value">', 
                               validators: { answer: (s) => validateInput(s) }, }, ],
 
                                                                                       
-     [["spba-ho-mod",4],  
+     [["spba-ho-mod",14],  
                      "Message", { html: loadAudio(SOURCES.mod.high[3]), transfer: 5000 },
                      "Form", {html: 'What did Dan sing to?: <input type="text" name="answer" class="obligatory" spellcheck="value">', 
                               validators: { answer: (s) => validateInput(s) }, }, ],
 
 
-     [["spba-lo-mod",4],  
+     [["spba-lo-mod",15],  
                      "Message", { html: loadAudio(SOURCES.mod.low[3]), transfer: 5000 },
                      "Form", {html: 'What did Dan sing to?: <input type="text" name="answer" class="obligatory" spellcheck="value">', 
                               validators: { answer: (s) => validateInput(s) }, }, ],
      
-     [["spba-ho-instr",4],  
+     [["spba-ho-instr",16],  
                      "Message", { html: loadAudio(SOURCES.inst.high[3]), transfer: 5000 },
                      "Form", {html: 'What did Diane feed?: <input type="text" name="answer" class="obligatory" spellcheck="value">', 
                               validators: { answer: (s) => validateInput(s) }, }, ],      
 // TARGET 5:
     
-     [["spba-ho-instr",5],  
+     [["spba-ho-instr",17],  
                      "Message", { html: loadAudio(SOURCES.inst.high[4]), transfer: 5000 },
                      "Form", {html: 'What did Evelyn poke?: <input type="text" name="answer" class="obligatory" spellcheck="value">', 
                               validators: { answer: (s) => validateInput(s) }, }, ],
 
 
-     [["spba-lo-instr",5],  
+     [["spba-lo-instr",18],  
                      "Message", { html: loadAudio(SOURCES.inst.low[4]), transfer: 5000 },
                      "Form", {html: 'What did Evelyn poke?: <input type="text" name="answer" class="obligatory" spellcheck="value">', 
                               validators: { answer: (s) => validateInput(s) }, }, ],
     
-     [["spba-ho-mod",5],  
+     [["spba-ho-mod",19],  
                      "Message", { html: loadAudio(SOURCES.mod.high[4]), transfer: 5000 },
                      "Form", {html: 'What did Eric talk to?: <input type="text" name="answer" class="obligatory" spellcheck="value">', 
                               validators: { answer: (s) => validateInput(s) }, }, ],
 
 
-     [["spba-lo-mod",5],  
+     [["spba-lo-mod",20],  
                      "Message", { html: loadAudio(SOURCES.mod.low[4]), transfer: 5000 },
                      "Form", {html: 'What did Eric talk to?: <input type="text" name="answer" class="obligatory" spellcheck="value">', 
                               validators: { answer: (s) => validateInput(s) }, }, ],
@@ -336,22 +336,22 @@ var items = [
       
 // TARGET 6
     
-     [["spba-lo-mod",6],  
+     [["spba-lo-mod",21],  
                      "Message", { html: loadAudio(SOURCES.mod.low[5]), transfer: 5000 },
                      "Form", {html: 'What did Frankie yell at?: <input type="text" name="answer" class="obligatory" spellcheck="value">', 
                               validators: { answer: (s) => validateInput(s) }, }, ],
      
-     [["spba-ho-instr",6],  
+     [["spba-ho-instr",22],  
                      "Message", { html: loadAudio(SOURCES.inst.high[5]), transfer: 5000 },
                      "Form", {html: 'What did Fred tickle?: <input type="text" name="answer" class="obligatory" spellcheck="value">', 
                               validators: { answer: (s) => validateInput(s) }, }, ],
                                                                                   
-     [["spba-lo-instr",6],  
+     [["spba-lo-instr",23],  
                      "Message", { html: loadAudio(SOURCES.inst.low[5]), transfer: 5000 },
                      "Form", {html: 'What did Fred tickle?: <input type="text" name="answer" class="obligatory" spellcheck="value">', 
                               validators: { answer: (s) => validateInput(s) }, }, ],
                                                                                   
-     [["spba-ho-mod",6],  
+     [["spba-ho-mod",24],  
                      "Message", { html: loadAudio(SOURCES.mod.high[5]), transfer: 5000 },
                      "Form", {html: 'What did Frankie yell at?: <input type="text" name="answer" class="obligatory" spellcheck="value">', 
                               validators: { answer: (s) => validateInput(s) }, }, ],
@@ -359,7 +359,7 @@ var items = [
 
 // Filler 1:
     
-     [["f-o",7], 
+     [["f-o",25], 
       "Message", { html: loadAudio(SOURCES.fill.all[0]), transfer: 5000},
       "Form", {html: 'What did Amy bring the lonely fish?: <input type="text" name="answer" class="obligatory" spellcheck="value">', 
                validators: { answer: (s) => validateInput(s) }, }, ],
@@ -368,7 +368,7 @@ var items = [
    
 // Filler 2:
     
-     [["f-o",8], 
+     [["f-o",26], 
       "Message", { html: loadAudio(SOURCES.fill.all[1]), transfer: 5000},
       "Form", {html: 'What did Andrew paint the scary snake?: <input type="text" name="answer" class="obligatory" spellcheck="value">', 
                validators: { answer: (s) => validateInput(s) }, }, ],
@@ -376,21 +376,21 @@ var items = [
    
 // Filler 3:
     
-     [["f-o",9], 
+     [["f-o",27], 
       "Message", { html: loadAudio(SOURCES.fill.all[2]), transfer: 5000},
       "Form", {html: 'Where was the large, leafy plant?: <input type="text" name="answer" class="obligatory" spellcheck="value">', 
                validators: { answer: (s) => validateInput(s) }, }, ],
     
 // Filler 4:
     
-     [["f-o",10], 
+     [["f-o",28], 
       "Message", { html: loadAudio(SOURCES.fill.all[3]), transfer: 5000},
       "Form", {html: 'Where was the long, silky dress?: <input type="text" name="answer" class="obligatory" spellcheck="value">', 
                validators: { answer: (s) => validateInput(s) }, }, ],
     
 // Filler 5:
     
-     [["f-o",11], 
+     [["f-o",29], 
       "Message", { html: loadAudio(SOURCES.fill.all[4]), transfer: 5000},
       "Form", {html: 'Who danced?: <input type="text" name="answer" class="obligatory" spellcheck="value">', 
                validators: { answer: (s) => validateInput(s) }, }, ],
@@ -398,7 +398,7 @@ var items = [
      
 // Filler 6:
     
-     [["f-o",12], 
+     [["f-o",30], 
       "Message", { html: loadAudio(SOURCES.fill.all[5]), transfer: 5000},
       "Form", {html: 'Who cooked?: <input type="text" name="answer" class="obligatory" spellcheck="value">', 
                validators: { answer: (s) => validateInput(s) }, }, ],
@@ -406,7 +406,7 @@ var items = [
      
 // Filler 7:
     
-     [["f-o",13], 
+     [["f-o",31], 
       "Message", { html: loadAudio(SOURCES.fill.all[6]), transfer: 5000},
       "Form", {html: 'What did Dina write?: <input type="text" name="answer" class="obligatory" spellcheck="value">', 
                validators: { answer: (s) => validateInput(s) }, }, ],
@@ -414,7 +414,7 @@ var items = [
     
 // Filler 8:
     
-     [["f-o",14], 
+     [["f-o",32], 
       "Message", { html: loadAudio(SOURCES.fill.all[7]), transfer: 5000},
       "Form", {html: 'What did Derek type?: <input type="text" name="answer" class="obligatory" spellcheck="value">', 
                validators: { answer: (s) => validateInput(s) }, }, ],
@@ -422,7 +422,7 @@ var items = [
      
 // Filler 9:
     
-     [["f-o",15], 
+     [["f-o",33], 
       "Message", { html: loadAudio(SOURCES.fill.all[8]), transfer: 5000},
       "Form", {html: 'What did Ellen feed?: <input type="text" name="answer" class="obligatory" spellcheck="value">', 
                validators: { answer: (s) => validateInput(s) }, }, ],
@@ -430,7 +430,7 @@ var items = [
     
 // Filler 10:
     
-     [["f-o",16], 
+     [["f-o",34], 
       "Message", { html: loadAudio(SOURCES.fill.all[9]), transfer: 5000},
       "Form", {html: 'What did Emily burp?: <input type="text" name="answer" class="obligatory" spellcheck="value">', 
                validators: { answer: (s) => validateInput(s) }, }, ],
@@ -438,7 +438,7 @@ var items = [
      
 // Filler 11:
     
-     [["f-o",17], 
+     [["f-o",35], 
       "Message", { html: loadAudio(SOURCES.fill.all[10]), transfer: 5000},
       "Form", {html: 'Who laughed at the frog\'s jokes?: <input type="text" name="answer" class="obligatory" spellcheck="value">', 
                validators: { answer: (s) => validateInput(s) }, }, ],
@@ -446,7 +446,7 @@ var items = [
      
 // Filler 12:
     
-     [["f-o",18], 
+     [["f-o",36], 
       "Message", { html: loadAudio(SOURCES.fill.all[11]), transfer: 5000},
       "Form", {html: 'Who scoffed at the remarks that the fox made?: <input type="text" name="answer" class="obligatory" spellcheck="value">', 
                validators: { answer: (s) => validateInput(s) }, }, ],
@@ -455,7 +455,7 @@ var items = [
       
 // Filler 13:
     
-     [["f-o",19], 
+     [["f-o",37], 
       "Message", { html: loadAudio(SOURCES.fill.all[12]), transfer: 5000},
       "Form", {html: 'What did George use to buy food?: <input type="text" name="answer" class="obligatory" spellcheck="value">', 
                validators: { answer: (s) => validateInput(s) }, }, ],
@@ -463,28 +463,28 @@ var items = [
    
 // Filler 14:
     
-     [["f-o",20], 
+     [["f-o",38], 
       "Message", { html: loadAudio(SOURCES.fill.all[13]), transfer: 5000},
       "Form", {html: 'What did Georgia use to get discounted school supplies?: <input type="text" name="answer" class="obligatory" spellcheck="value">', 
                validators: { answer: (s) => validateInput(s) }, }, ],
    
 // Filler 15:
     
-     [["f-o",21], 
+     [["f-o",39], 
       "Message", { html: loadAudio(SOURCES.fill.all[14]), transfer: 5000},
       "Form", {html: 'What did Haley hear?: <input type="text" name="answer" class="obligatory" spellcheck="value">', 
                validators: { answer: (s) => validateInput(s) }, }, ],
     
 // Filler 16:
     
-     [["f-o",22], 
+     [["f-o",40], 
       "Message", { html: loadAudio(SOURCES.fill.all[15]), transfer: 5000},
       "Form", {html: 'What did Harry hear?: <input type="text" name="answer" class="obligatory" spellcheck="value">', 
                validators: { answer: (s) => validateInput(s) }, }, ],
     
 // Filler 17:
     
-     [["f-o",23], 
+     [["f-o",41], 
       "Message", { html: loadAudio(SOURCES.fill.all[16]), transfer: 5000},
       "Form", {html: 'What did Ian love to do?: <input type="text" name="answer" class="obligatory" spellcheck="value">', 
                validators: { answer: (s) => validateInput(s) }, }, ],
@@ -492,7 +492,7 @@ var items = [
      
 // Filler 18:
     
-     [["f-o",24], 
+     [["f-o",42], 
       "Message", { html: loadAudio(SOURCES.fill.all[17]), transfer: 5000},
       "Form", {html: 'What did Izzy like to do?: <input type="text" name="answer" class="obligatory" spellcheck="value">', 
                validators: { answer: (s) => validateInput(s) }, }, ],
@@ -500,7 +500,7 @@ var items = [
      
 // Filler 19:
     
-     [["f-o",25], 
+     [["f-o",43], 
       "Message", { html: loadAudio(SOURCES.fill.all[18]), transfer: 5000},
       "Form", {html: 'Who had a plan?: <input type="text" name="answer" class="obligatory" spellcheck="value">', 
                validators: { answer: (s) => validateInput(s) }, }, ],
@@ -508,7 +508,7 @@ var items = [
     
 // Filler 20:
     
-     [["f-o",26], 
+     [["f-o",44], 
       "Message", { html: loadAudio(SOURCES.fill.all[19]), transfer: 5000},
       "Form", {html: 'Who had a party?: <input type="text" name="answer" class="obligatory" spellcheck="value">', 
                validators: { answer: (s) => validateInput(s) }, }, ],
@@ -516,7 +516,7 @@ var items = [
      
 // Filler 21:
     
-     [["f-o",27], 
+     [["f-o",45], 
       "Message", { html: loadAudio(SOURCES.fill.all[20]), transfer: 5000},
       "Form", {html: 'What did Kristy grow tired of?: <input type="text" name="answer" class="obligatory" spellcheck="value">', 
                validators: { answer: (s) => validateInput(s) }, }, ],
@@ -524,7 +524,7 @@ var items = [
     
 // Filler 22:
     
-     [["f-o",28], 
+     [["f-o",46], 
       "Message", { html: loadAudio(SOURCES.fill.all[21]), transfer: 5000},
       "Form", {html: 'What did Ken grow sick of?: <input type="text" name="answer" class="obligatory" spellcheck="value">', 
                validators: { answer: (s) => validateInput(s) }, }, ],
@@ -532,7 +532,7 @@ var items = [
      
 // Filler 23:
     
-     [["f-o",29], 
+     [["f-o",47], 
       "Message", { html: loadAudio(SOURCES.fill.all[22]), transfer: 5000},
       "Form", {html: 'When did Laura go to the store?: <input type="text" name="answer" class="obligatory" spellcheck="value">', 
                validators: { answer: (s) => validateInput(s) }, }, ],
@@ -540,7 +540,7 @@ var items = [
      
 // Filler 24:
     
-     [["f-o",30], 
+     [["f-o",48], 
       "Message", { html: loadAudio(SOURCES.fill.all[23]), transfer: 5000},
       "Form", {html: 'When did Lenny travel to the beach?: <input type="text" name="answer" class="obligatory" spellcheck="value">', 
                validators: { answer: (s) => validateInput(s) }, }, ],
